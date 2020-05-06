@@ -20,7 +20,7 @@ pipeline {
       steps {
 	ansiblePlaybook( 
         	playbook: 'main.yaml',
-        	inventory: 'inventory',
+        	inventory: 'inventory'
 	)
       }
     }
